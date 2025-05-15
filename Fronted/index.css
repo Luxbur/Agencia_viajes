@@ -52,30 +52,18 @@ body {
   margin-bottom: 35px;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  
+  background-image: url('../img/Paris.jpg');
 }
 
-.clash-card__image img{
-    transition: 0.3s;
-}
-
-.clash-card__image:hover img{
-    scale: 120%;
-}
-
-.clash-card__image--barbarian {
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
-  
-}
 
 .clash-card__image--barbarian img{
-    width: 270px;
-    position: absolute;    
-    top: -20px;
-    left: -10px;
+    width: 300px;
+    height: 230px;
+    margin-bottom: 35px;
+    position: relative;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;  
 }
-
-
 
 .clash-card__image--archer {
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer-bg.jpg');
